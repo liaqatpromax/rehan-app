@@ -1,0 +1,22 @@
+  <div class="wrapp border-3 border-yellow-400  flex flex-col shadow-md gap-5 items-center p-4 rounded-lg pb-5">
+      <div class="projects-heading">
+          <h1 class="text-blue-900 hd">Our Projects</h1>
+          <p class="text-sm text-blue-900">
+            Ahamdulillah we have done several high profile projects
+          </p>
+        </div>
+        <div class="contaier-sm projects  flex gap-3">
+          <div class="proj1">
+            <img src="/imgs/WhatsApp Image 2024-11-18 at 4.49.46 PM.jpeg" class="  pics w-80 h-52" alt="">
+            <h5 class="p-2 new bg-blue-900 text-white text-center">name of proj</h5>
+          </div>
+          <div class="proj1">
+            <img src="/imgs/WhatsApp Image 2024-11-18 at 4.50.22 PM.jpeg" class="pics w-80 h-52" alt="">
+            <h5 class="p-2 new bg-blue-900 text-white text-center">name of proj</h5>
+          </div>
+          <div class="proj1">
+            <img src="/imgs/solar-farm-high-rez.jpg" class="pics w-80 h-52" alt="">
+            <h5 class="p-2 new bg-blue-900 text-white text-center">name of proj</h5>
+          </div>
+        </div>
+      </div>

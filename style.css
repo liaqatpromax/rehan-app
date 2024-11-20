@@ -1,0 +1,319 @@
+
+/* Add styles here */
+*,html,body{
+    padding: 0;
+    margin:0;
+ 
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    /* border: 2px solid red; */
+}
+/* navbar// */
+
+.hov{
+    font-weight: 500;
+}
+.hero{
+    background-image: url(/imgs/solar-farm-high-rez.jpg);
+    background-size: cover;
+    /* border: 5px solid red; */
+    color: #fff;
+}
+.logo{
+    animation:1s title ease-in-out;
+}
+.hov:hover{
+cursor: pointer;
+color: rgb(79, 126, 255);
+}
+.hero-cover{
+    background-color: rgba(0, 0, 0, .7);
+}
+.cent{
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     
+}
+
+@keyframes title {
+    0%{
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+/* ///why us// */
+
+.two,.bgs{
+    background-color: #d6d6d6;
+
+ 
+}
+.card{
+    width: 13rem;
+    padding: .5rem;
+    transition: transform .15s ease-in-out;
+    @media screen and (max-width: 768px) {
+        width: 15rem ;
+        padding: 1rem .5rem;
+    }
+}
+.card:hover{
+transform: scale(1.1);
+cursor: pointer;
+color: #fff;
+background-color: rgb(30 58 138 / var(--tw-text-opacity, 1))
+}
+.card:hover .svg{
+    fill:#fff
+}
+.cus{
+    background-color: #f2f2f2;
+    @media screen and (max-width: 768px) {
+        width: 100% ;
+        /* border:2px solid red; */
+        background-color: #fff;
+      }
+}
+.cs{
+    width: 60%;
+    @media screen and (max-width: 768px) {
+        width: 85%;
+      
+      
+    }
+}
+
+.hd{
+    font-family: "Belleza", sans-serif;
+    font-weight: bolder;
+    font-size:5rem;
+    @media screen and (max-width: 768px) {
+        font-size: 3rem;
+        margin-top: .4rem;
+        
+      }
+}
+.bgs{
+    /* background: radial-gradient(circle at 10% 20%, rgb(0, 107, 141) 0%, rgb(0, 69, 91) 90%); */
+    background-color: #f2f2f2;
+    @media screen and (max-width: 768px) {
+       margin-top: .7rem    ;
+        background-color:#fff ;
+     }
+}
+.c{
+    border:none;
+    @media screen and (max-width: 768px) {
+       height: 7rem ;
+       width: 17rem;
+    
+       flex-direction: row;
+       
+       
+        
+      }
+}
+.svg{
+    @media screen and (max-width: 768px) {
+       width: 5rem;
+       height: 3rem;
+        
+      }
+}
+.c-body{
+    height: 6.7rem;
+    @media screen and (max-width: 768px) {
+      
+        justify-content: start;
+        height: 5rem ;
+        width: 25rem;
+        padding: .5rem 0;
+        
+        
+         
+       }
+}
+.cardt{
+    @media screen and (max-width: 768px) {
+     font-size: .7rem;
+        
+         
+       }
+        
+         
+       
+}
+/* ///projects // */
+.carol{
+    bottom: -.1rem;
+    margin: auto;
+    left: 0rem;
+    height: 7rem;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+}
+.cwid{
+    background-color: #fff;
+    width: 100%;
+    /* height: 0%; */
+    @media screen and (max-width: 768px) {
+       
+        padding: .5rem;
+    }
+}
+.tops{
+    width: 100%;
+    padding: 0 3.5rem 0 2.5rem;
+    /* border: 2px solid red; */
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0 0;
+      
+    }
+}
+
+.relative .custom{
+    color: blue !important;
+    top: 10.9rem;
+    padding: .7rem;
+    border-bottom-left-radius:.6rem;
+    border-bottom-right-radius:.6rem;
+
+}
+.first{
+    width: 84%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0 0;
+      
+    }
+}
+.res{
+    @media screen and (max-width: 768px) {
+       font-size:.8rem;
+      
+    }
+}
+.img1{
+    width: 20rem;
+    height: 14rem;
+    @media screen and (max-width: 768px) {
+        width: 14rem;
+        height: 9rem;
+        /* padding: 0 0; */
+      
+    }
+}
+.new{
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+.pics{
+    border-top-left-radius:.5rem ;
+    border-top-right-radius:.5rem ;
+}.products {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .proj1 {
+    transition: transform 0.3s ease-in, filter 0.3s ease-in; /* Smooth transition for transform and filter */
+    cursor: pointer;
+  }
+  
+  .proj1:hover {
+    /* filter: blur(0); Removes blur on the hovered product */
+    transform: scale(1.2); /* Scales up the hovered product */
+  }
+  
+  /* Add blur to non-hovered products */
+  .proj1:not(:hover) {
+    /* filter: blur(4px); Apply blur on non-hovered products */
+    transform: scale(1); /* Keep non-hovered products at normal size */
+  }
+  
+
+.wrapp{
+    background-color: #fff;
+    width: 95%;
+}
+.hds{
+    font-family: "Belleza", sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.back{
+    background: linear-gradient(1.3deg, rgb(91, 117, 163) 11.4%, rgb(68, 98, 128) 77%);
+}
+.usd{
+    width: 65%;
+   
+}
+.us{
+    font-family: "Belleza", sans-serif;
+    font-weight: bolder;
+    font-size: 2.7rem;
+}
+.line{
+    line-height: 1.5;
+}
+.mis{
+    width: 70%;
+}
+/* //whatsapp */
+.pulse-wave {
+    position: fixed;
+    width: 25px;
+    right: 1.7rem;
+    bottom: 2.9rem;
+    height: 25px;
+    background-color: #008000;
+    border-radius: 50%;
+    animation: pulse-wave-fade 1.5s infinite;
+    z-index: 399;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5); /* Optional glow effect */
+  }
+  
+  .pulse-wave::before,
+  .pulse-wave::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.5);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    animation: wave 1.5s infinite;
+    opacity: 0;
+  }
+  
+  .pulse-wave::after {
+    animation-delay: 0.75s; /* Offset the waves */
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(3); /* Expand */
+      opacity: 0; /* Fade out */
+    }
+  }
+  .con{
+    font-family: "Belleza", sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  .form-wrapper {
+    padding-inline: 2rem;
+  }
